@@ -1,0 +1,803 @@
+body
+{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+} 
+
+.border1
+{
+    position: fixed;
+    z-index: 1;
+    border: 2px solid rgb(224, 116, 134);
+    width: 1524px;
+    height: 100px;
+    background-color: rgb(235, 91, 115);
+}
+.logo1 img
+{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+.box1
+{
+    font-size: 25px;
+}
+ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.rahul1
+{
+  position: fixed;
+  z-index: 1;
+}
+ul li
+{
+    float: left;
+    position: relative;
+    left: 430px;
+    top: 30px;
+    width: 135px;
+    text-align: center;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover
+{
+  color: rgb(179, 20, 44) ;
+  text-decoration: underline;
+}
+
+
+.box2
+{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 35px;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right: 150px;
+    font-size: 20px;
+    color: white;
+} 
+.box2 i
+{
+    width: 30px;
+}
+.box5 i
+{
+    width: 25px;
+}
+button
+{
+    width: 75px;
+    height: 30px;
+    position: fixed;
+    z-index: 1;
+    top: 35px;
+    font-weight: bold;
+    /* height: 30px; */
+    /* padding: 30px; */
+}
+.rahul
+{
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    right: 128px;
+    font-size: 40px;
+    color: white;
+}
+
+.btn1
+{
+    position: fixed;
+    z-index: 1;
+    right: 230px;
+}
+
+
+.btn2
+{
+    /* width: 100px;
+    height: 100px; */
+    position: fixed;
+    z-index: 1;
+    right: 110px;
+}
+
+.raj
+{
+  position: absolute;
+  right: 155px;
+  top: 0px;
+}
+.raj2
+{
+  position: absolute;
+  right: 125px;
+  top: 0px;
+}
+
+.search-form {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  left: 1200px;
+  top: 80px;
+}
+#search-box {
+  padding: 10px;
+  width: 280px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.5);
+}
+.modal-content {
+  background: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+.modal-content input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+.modal-content button {
+  background: #6a4f4b;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.modal-content button:hover {
+  background: #a57260;
+}
+.close {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.heading
+{
+  font-size: 70px;
+  position: absolute;
+  top: 170px;
+  left: 520px;
+  color:rgb(243, 62, 62);
+}
+
+.heading2
+{
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  left: 580px;
+  color:rgb(0, 0, 0);
+}
+.baker1
+{
+  border: 2px solid black;
+  width: 260px;
+  height: 280px;
+  position: absolute;
+  top: 330px;
+  left: 150px;
+  border-radius: 90px;
+}
+.baker1 img
+{
+  border-radius: 90px;
+}
+
+.baker2
+{
+  border: 2px solid black;
+  width: 230px;
+  height: 280px;
+  position: absolute;
+  top: 330px;
+  left: 500px;
+  border-radius: 90px;
+}
+.baker2 img
+{
+  border-radius: 90px;
+}
+
+.baker4
+{
+  border: 2px solid black;
+  width: 230px;
+  height: 280px;
+  position: absolute;
+  top: 330px;
+  left: 820px;
+  border-radius: 90px;
+}
+.baker4 img
+{
+  border-radius: 90px;
+}
+
+.baker5
+{
+  border: 2px solid black;
+  width: 230px;
+  height: 280px;
+  position: absolute;
+  top: 330px;
+  left: 1140px;
+  border-radius: 90px;
+}
+
+.baker5 img
+{
+  border-radius: 90px;
+}
+
+.title1
+{
+  position: absolute;
+  top: 620px;
+  left: 530px;
+  color: black;
+  font-size: 35px;
+}
+.title1a
+{
+  position: absolute;
+  top: 660px;
+  left: 560px;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.title1b
+{
+  position: absolute;
+  top: 690px;
+  left: 526px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title1c
+{
+  position: absolute;
+  top: 710px;
+  left: 526px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title1d
+{
+  position: absolute;
+  top: 730px;
+  left: 550px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+
+.title3
+{
+  position: absolute;
+  top: 620px;
+  left: 810px;
+  color: black;
+  font-size: 35px;
+}
+.title3a
+{
+  position: absolute;
+  top: 660px;
+  left: 880px;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.title3b
+{
+  position: absolute;
+  top: 690px;
+  left: 820px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title3c
+{
+  position: absolute;
+  top: 710px;
+  left: 850px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title3d
+{
+  position: absolute;
+  top: 730px;
+  left: 880px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+
+.title4
+{
+  position: absolute;
+  top: 620px;
+  left: 1210px;
+  color: black;
+  font-size: 35px;
+}
+.title4a
+{
+  position: absolute;
+  top: 660px;
+  left: 1180px;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.title4b
+{
+  position: absolute;
+  top: 690px;
+  left: 1170px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title4c
+{
+  position: absolute;
+  top: 710px;
+  left: 1160px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title4d
+{
+  position: absolute;
+  top: 730px;
+  left: 1200px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+
+.title5
+{
+  position: absolute;
+  top: 620px;
+  left: 180px;
+  color: black;
+  font-size: 35px;
+}
+.title5a
+{
+  position: absolute;
+  top: 660px;
+  left: 230px;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.title5b
+{
+  position: absolute;
+  top: 690px;
+  left: 180px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title5c
+{
+  position: absolute;
+  top: 710px;
+  left: 160px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.title5d
+{
+  position: absolute;
+  top: 730px;
+  left: 220px;
+  color: black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+.footer
+{
+    background-color: black;
+  border: 2px solid red;
+  width: 1520px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: 800px;
+}
+.logo2
+{
+    position: absolute;
+    left: 20px;
+}
+.copy
+{
+    color: white;
+    position: absolute;
+    top: 185px;
+    left: 5px;
+    font-size: 25px;
+}
+.explore
+{
+font-size: 30px;
+position: absolute;
+left: 450px;
+top: 20px;
+text-decoration: underline;
+}
+.sweets
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 60px;
+}
+.sweets:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.sweets a
+{
+  text-decoration: none;
+  color: white;
+}
+.bakery
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 85px;
+}
+.bakery:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.bakery a
+{
+  text-decoration: none;
+  color: white;
+}
+.hampers
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 110px;
+}
+.hampers:hover
+{
+  /* color: rgb(224, 116, 134); */
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
+.hampers a
+{
+  text-decoration: none;
+  color: white;
+}
+.bulk
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 135px;
+}
+.bulk:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.bulk a
+{
+  text-decoration: none;
+  color: white;
+}
+.pastry
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 160px;
+}
+.pastry:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.pastry a
+{
+  text-decoration: none;
+  color: white;
+}
+.cookie
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 185px;
+}
+.cookie:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}  
+.cookie a
+{
+  text-decoration: none;
+  color: white;
+}
+.Mocktail
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 215px;
+}
+.Mocktail:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.Mocktail a
+{
+  text-decoration: none;
+  color: white;
+}
+.legal
+{
+  font-size: 30px;
+ position: absolute;
+ left: 750px;
+ top: 20px;
+ text-decoration: underline;
+}
+.food
+{
+  font-size: 26px;
+  position: absolute;
+  left: 745px;
+  top: 60px;
+}
+.food:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.food a
+{
+  text-decoration: none;
+  color: white;
+}
+.terms
+{
+  font-size: 26px;
+  position: absolute;
+  left: 740px;
+  top: 95px;
+}
+.terms:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.terms a
+{
+  text-decoration: none;
+  color: white;
+}
+.about
+{
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 1050px;
+  text-decoration: underline;
+}
+.about:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.about a
+{
+  text-decoration: none;
+  color: white;
+}
+.contact
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1050px;
+  top: 58px;
+}
+.contact:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.contact a
+{
+  text-decoration: none;
+  color: white;
+}
+.show
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1050px;
+  top: 90px;
+}
+.show:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.show a
+{
+  text-decoration: none;
+  color: white;
+}
+.payment
+{
+  font-size: 30px;
+ position: absolute;
+ top: 20px;
+ left: 1232px;
+ text-decoration: underline;
+}
+.upi
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1330px;
+  top: 60px;
+}
+.upi:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.upi a
+{
+  text-decoration: none;
+  color: white;
+}
+.debit
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1300px;
+  top: 95px;
+}
+.debit:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+  
+}
+.debit a
+{
+  text-decoration: none;
+  color: white;
+}
+.credit
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1300px;
+  top: 130px;
+}
+.credit:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.credit a
+{
+  text-decoration: none;
+  color: white;
+}
+.social
+{
+  font-family: Lucida Calligraphy;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  font-size: 30px;
+}
+.social i
+{
+  width: 40px;
+}
+marquee
+{
+  font-size: 25px;
+  position: absolute;
+  top: 165px;
+  /* background-color:  rgb(224, 116, 134); */
+
+}

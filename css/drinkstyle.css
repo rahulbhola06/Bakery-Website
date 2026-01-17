@@ -1,0 +1,640 @@
+body  
+{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px; 
+    color: white;overflow-x: hidden;
+
+}
+.border1 
+{
+    border: 2px solid rgb(224, 116, 134);
+    width: 1524px;
+    height: 100px;
+    background-color: rgb(235, 91, 115);
+} 
+.logo1 img
+{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.box1
+{
+    font-size: 25px;
+}
+ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li
+{
+    float: left;
+    position: relative;
+    left: 430px;
+    top: 30px;
+    width: 135px;
+    text-align: center;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover
+{
+  text-decoration: underline;
+}
+
+.box2
+{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 35px;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    font-size: 20px;
+    color: white;
+} 
+.box2 i
+{
+    width: 30px;
+}
+.box5 i
+{
+    width: 25px;
+}
+button
+{
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    font-weight: bold;
+    /* height: 30px; */
+    /* padding: 30px; */
+}
+.rahul
+{
+    position: absolute;
+    top: 30px;
+    right: 128px;
+    font-size: 40px;
+    color: white;
+}
+
+.btn1
+{
+    position: absolute;
+    right: 230px;
+}
+
+.btn2
+{
+    /* width: 100px;
+    height: 100px; */
+    position: absolute;
+    right: 110px;
+}
+
+.raj
+{
+  position: absolute;
+  top: 0px;
+  right: 160px;
+}
+  
+.raj2
+{
+  position: absolute;
+  top: 0px;
+  right: 130px;
+}
+
+.search-form {
+  display: none;
+  position: absolute;
+  left: 1200px;
+  top: 80px;
+}
+#search-box {
+  padding: 10px;
+  width: 280px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.5);
+}
+.modal-content {
+  background: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center; 
+}
+.modal-content input { 
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+.modal-content button {
+  background: #6a4f4b;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.modal-content button:hover {
+  background: #a57260;
+}
+.close {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bread
+{
+  font-size: 50px;
+  position: relative;
+  top: 20px;
+  left: 700px;
+  color: darkslateblue;
+  font-weight: bold;
+}
+
+.breads ul li
+{
+  font-size: 25px;
+  display: inline-block;
+  width: 175px;
+  position: relative;
+  left: 300px;
+  top: 30px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.breads ul li a:hover
+{
+  color: darkslateblue;
+}
+
+video
+{
+  width: 1000px;
+  height: 500px;
+  padding-left: 300px;
+}
+
+.a1
+{
+  position: relative;
+  bottom: 100px;
+}
+
+.gols img
+{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.gol1
+{
+  /* border: 2px solid black; */
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+  left: 370px;
+}
+
+.gol1 img
+{
+  position: relative;
+  bottom: 26px;
+}
+
+.gol1 img:hover
+{
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px black;
+}
+
+.gol2
+{
+  /* border: 2px solid black; */
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 765px;
+  left: 600px;
+}
+
+.gol2 img:hover
+{
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px black;
+}
+
+.gol3
+{
+  /* border: 2px solid black; */
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 765px;
+  left: 825px;
+}
+.gol3 img:hover
+{
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px black;
+}
+
+.b4
+{
+  position: relative;
+  top: 7px;
+}
+
+.gol4
+{
+  /* border: 2px solid black; */
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 765px;
+  left: 1050px;
+}
+.gol4 img:hover
+{
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px black;
+}
+
+.footer
+{
+    background-color: black;
+  border: 2px solid red;
+  width: 1520px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: 950px;
+}
+.logo2
+{
+    position: absolute;
+    left: 20px;
+}
+.copy
+{
+    color: white;
+    position: absolute;
+    top: 185px;
+    left: 5px;
+    font-size: 25px;
+}
+.explore
+{
+font-size: 30px;
+position: absolute;
+left: 450px;
+top: 20px;
+text-decoration: underline;
+}
+.sweets
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 60px;
+}
+.sweets:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.sweets a
+{
+  text-decoration: none;
+  color: white;
+}
+.bakery
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 85px;
+}
+.bakery:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.bakery a
+{
+  text-decoration: none;
+  color: white;
+}
+.hampers
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 110px;
+}
+.hampers:hover
+{
+  /* color: rgb(224, 116, 134); */
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
+.hampers a
+{
+  text-decoration: none;
+  color: white;
+}
+.bulk
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 140px;
+}
+.bulk:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.bulk a
+{
+  text-decoration: none;
+  color: white;
+}
+
+
+.pastry
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 165px;
+}
+.pastry:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.pastry a
+{
+  text-decoration: none;
+  color: white;
+}
+.cookie
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 190px;
+}
+.cookie:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.cookie a
+{
+  text-decoration: none;
+  color: white;
+}
+.Mocktail
+{
+  font-size: 26px;
+  position: absolute;
+  left: 450px;
+  top: 220px;
+}
+.Mocktail:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.Mocktail a
+{
+  text-decoration: none;
+  color: white;
+}
+.legal
+{
+  font-size: 30px;
+ position: absolute;
+ left: 750px;
+ top: 20px;
+ text-decoration: underline;
+}
+.food
+{
+  font-size: 26px;
+  position: absolute;
+  left: 745px;
+  top: 60px;
+}
+.food:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.food a
+{
+  text-decoration: none;
+  color: white;
+}
+.terms
+{
+  font-size: 26px;
+  position: absolute;
+  left: 740px;
+  top: 95px;
+}
+.terms:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.terms a
+{
+  text-decoration: none;
+  color: white;
+}
+.about
+{
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 1050px;
+  text-decoration: underline;
+}
+.about:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.about a
+{
+  text-decoration: none;
+  color: white;
+}
+.contact
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1050px;
+  top: 58px;
+}
+.contact:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.contact a
+{
+  text-decoration: none;
+  color: white;
+}
+.show
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1050px;
+  top: 90px;
+}
+.show:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.show a
+{
+  text-decoration: none;
+  color: white;
+}
+.payment
+{
+  font-size: 30px;
+ position: absolute;
+ top: 20px;
+ left: 1232px;
+ text-decoration: underline;
+}
+.upi
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1330px;
+  top: 60px;
+}
+.upi:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.upi a
+{
+  text-decoration: none;
+  color: white;
+}
+.debit
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1300px;
+  top: 95px;
+}
+.debit:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+  
+}
+.debit a
+{
+  text-decoration: none;
+  color: white;
+}
+.credit
+{
+  font-size: 26px;
+  position: absolute;
+  left: 1300px;
+  top: 130px;
+}
+.credit:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  /* color: rgb(224, 116, 134); */
+}
+.credit a
+{
+  text-decoration: none;
+  color: white;
+}
+.social
+{
+  font-family: Lucida Calligraphy;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  font-size: 30px;
+}
+.social i
+{
+  width: 40px;
+}
+marquee
+{
+  font-size: 25px;
+  position: absolute;
+  top: 165px;
+  background-color:  rgb(224, 116, 134);
+
+}
